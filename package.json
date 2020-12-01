@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "serve": "node index",
     "start": "nodemon index",
     "test": "nodemon index"
   },
