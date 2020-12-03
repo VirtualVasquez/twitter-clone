@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "serve": "node index",
-    "start": "nodemon index",
     "test": "nodemon index"
   },
   "license": "MIT",
@@ -20,5 +19,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }

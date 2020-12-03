@@ -36,8 +36,6 @@ module.exports = {
                 throw new Error('Post body must not be empty');
             }
 
-
-            console.log(user);
             const newPost = new Post({
                 body,
                 user: user.indexOf,
