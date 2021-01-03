@@ -7,6 +7,7 @@ import { Button, Form,  Card, Grid, Image, Icon, Label } from 'semantic-ui-react
 import { AuthContext } from '../context/auth';
 import LikeButton from '../components/LikeButton';
 import DeleteButton from '../components/DeleteButton';
+import MyPopup from '../util/MyPopup'
 
 function SinglePost(props) {
   const postId = props.match.params.postId;
@@ -73,6 +74,7 @@ function SinglePost(props) {
               <hr />
               <Card.Content extra>
                 <LikeButton user={user} post={{ id, likeCount, likes }} />
+                <MyPopup content="Comment on post">
                 <Button
                   as="div"
                   labelPosition="right"
@@ -85,6 +87,7 @@ function SinglePost(props) {
                     {commentCount}
                   </Label>
                 </Button>
+                </MyPopup>
                 {user && user.username === username && (
                   <DeleteButton postId={id} callback={deletePostCallback} />
                 )}
