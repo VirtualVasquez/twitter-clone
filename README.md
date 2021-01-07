@@ -29,7 +29,7 @@ A great example of this is with the delete button. Though it remains visually th
 
 ### ... and "User's" comments
 
-![delete comment](/readme_assets/deleteComment.png)
+![delete comment](/readme_assets/deleteComment.PNG)
 
 The backend portion of the application is hosted on Heroku, while the frontend application of the application is on Netlify. 
 
