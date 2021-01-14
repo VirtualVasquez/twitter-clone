@@ -1,6 +1,6 @@
 # Twitter Clone
 
-A comprehensive look at the foundations of a MERNG application. See the application in action [here](https://calm-eyrie-20998.herokuapp.com/)
+A comprehensive look at the foundations of a MERNG application. See the application in action [here](https://pensive-borg-664381.netlify.app/login)
 
 ### The app on the landing page when signed out. 
 
